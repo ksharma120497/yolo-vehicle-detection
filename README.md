@@ -13,6 +13,8 @@ cd yolo-vehicle-detection
 pip install -r requirements.txt
 ```
 
+NOTE: Installation of the libraries from requirements.txt will take around 10 mins for the first time
+
 We can use conda to create a different environment to run this
 
 Download our best trained YOLO model from this lin
