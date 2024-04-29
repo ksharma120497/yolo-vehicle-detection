@@ -10,7 +10,7 @@ Login to the CS server through ssh and then after setting up a project location 
 ```bash
 git clone https://github.com/ksharma120497/yolo-vehicle-detection.git
 cd yolo-vehicle-detection
-pip install -r requrirements.txt
+pip install -r requirements.txt
 ```
 
 We can use conda to create a different environment to run this
