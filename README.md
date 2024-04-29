@@ -8,7 +8,7 @@ This project focuses on the YOLOv8n model which is used to detect objects. In ou
 Login to the CS server through ssh and then after setting up a project location run the following command
 
 ```bash
-git clone 
+git clone https://github.com/ksharma120497/yolo-vehicle-detection.git
 cd yolo-vehicle-detection
 pip install -r requrirements.txt
 ```
