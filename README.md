@@ -26,7 +26,7 @@ Place this file in the root folder before running the inference
 After everything is setup, run the below command for the inference
 
 ```bash
-python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./data/my_coco.yaml
+python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./my_coco.yaml
 ```
 
 The output will be saved in ./yolov5/runs/detect/exp{x}
