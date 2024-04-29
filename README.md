@@ -15,6 +15,14 @@ pip install -r requrirements.txt
 
 We can use conda to create a different environment to run this
 
+Download our best trained YOLO model from this lin
+```bash
+https://drive.google.com/file/d/15bjI8V68K9CACM_W2VueE0VPuio5iH7X/view?usp=share_link
+```
+
+Place this file in the root folder before running the inference
+
+
 After everything is setup, run the below command for the inference
 
 ```bash
