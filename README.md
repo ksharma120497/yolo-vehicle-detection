@@ -1,7 +1,8 @@
 # yolo-vehicle-detection
 Group 4 Machine Learning Project RIT Spring 2024
 
-This project focuses on the YOLOv8n model which is used to detect objects. In our application, we are using this model to detect the vehicles driving on the wrong side of the road
+The primary objective of our project is to develop a system capable of detecting wrong-way driving vehicles in real-time using surveillance video data. This system leverages the You Only Look Once (YOLO) object detection algorithm in conjunction with a centroid tracking algorithm to accurately identify vehicles moving in the wrong direction. Wrong-way driving, a significant cause of road accidents and traffic congestion, poses a substantial risk to road safety. Our system aims to mitigate these risks by providing a reliable, automated monitoring tool to assist in traffic management and enforcement.
+
 
 # Running the code on CS Server
 
@@ -30,6 +31,7 @@ After everything is setup, run the below command for the inference
 ```bash
 python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./my_coco.yaml
 ```
+
 
 The output will be saved in ./yolov5/runs/detect/exp{x}
 
