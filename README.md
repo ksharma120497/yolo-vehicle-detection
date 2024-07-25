@@ -33,10 +33,21 @@ python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./my
 ```
 ## Output
 
-<img width="460" alt="image" src="https://github.com/user-attachments/assets/67bbba54-3c3a-4aec-a663-bdf25cf20055">
-
-
 The output will be saved in ./yolov5/runs/detect/exp{x}
+
+https://github.com/user-attachments/assets/43aec5d4-261f-49c2-a52b-a1e956db0be1
+
+
+## References
+
+1. Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. Proceedings of the IEEE conference on computer vision and pattern recognition.
+2. Rahman, Z., Mazumder Ami, A., & Ullah, M.A. (2020). A Real-Time Wrong-Way Vehicle Detection Based on YOLO and Centroid Tracking. Chittagong University of Engineering and Technology.
+3. He, K., Gkioxari, G., Dollar, P., & Girshick, R. (2017). Mask R-CNN. 2017 IEEE International Conference on Computer Vision (ICCV).
+4. Bangladesh Road Accidents in 2019 Statistics by Nirapad Sarak Chai. (2020). The Daily Star.
+5. Pour-rouholamin, M., & Shaw, J. (2015). Current Practices of Safety Countermeasures for Wrong-Way Driving. TRB 94th Annual Meeting Compendium of Papers.
+6. Diwan, T., Anirudh, G. & Tembhurne, J.V. Object detection using YOLO: challenges, architectural successors, datasets and applications. Multimed Tools Appl 82, 9243–9275 (2023). https://doi.org/10.1007/s11042-022-13644-y
+
+
 
 
 
