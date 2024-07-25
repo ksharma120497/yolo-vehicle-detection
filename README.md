@@ -4,7 +4,7 @@ Group 4 CSCI 635-Machine Learning Project RIT Spring 2024
 The primary objective of our project is to develop a system capable of detecting wrong-way driving vehicles in real-time using surveillance video data. This system leverages the You Only Look Once (YOLO) object detection algorithm in conjunction with a centroid tracking algorithm to accurately identify vehicles moving in the wrong direction. Wrong-way driving, a significant cause of road accidents and traffic congestion, poses a substantial risk to road safety. Our system aims to mitigate these risks by providing a reliable, automated monitoring tool to assist in traffic management and enforcement.
 
 
-# Running the code on CS Server
+## Running the code on CS Server
 
 Login to the CS server through ssh and then after setting up a project location run the following command
 
@@ -31,6 +31,9 @@ After everything is setup, run the below command for the inference
 ```bash
 python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./my_coco.yaml
 ```
+## Output
+
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/67bbba54-3c3a-4aec-a663-bdf25cf20055">
 
 
 The output will be saved in ./yolov5/runs/detect/exp{x}
