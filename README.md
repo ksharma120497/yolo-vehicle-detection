@@ -35,8 +35,7 @@ python3 detect_wrong.py --source overpass.mp4 --weights ./my_coco.pt --data ./my
 
 The output will be saved in ./yolov5/runs/detect/exp{x}
 
-https://github.com/user-attachments/assets/43aec5d4-261f-49c2-a52b-a1e956db0be1
-
+https://github.com/user-attachments/assets/4f7c9694-f210-41b7-8ff4-8cfa07c7e9b2
 
 ## References
 
